@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Testing a different request on store","Verify that store is created","SUCCESS","2023-01-10T18:22:08.078Z[Europe/London]","0.0","0.06"
+"Testing a different request on store","Verify that I get created store with storeId","SUCCESS","2023-01-10T18:22:08.201Z[Europe/London]","0.0","0.03"
+"Testing a different request on store","Verify that I update the store with storeId","SUCCESS","2023-01-10T18:22:08.276Z[Europe/London]","0.0","0.05"
+"Testing a different request on store","Verify that I can delete the store","SUCCESS","2023-01-10T18:22:08.389Z[Europe/London]","0.0","0.08"

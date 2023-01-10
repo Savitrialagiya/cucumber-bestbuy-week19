@@ -1,0 +1,9 @@
+com\bestbuy\testbase\TestBase.class
+com\bestbuy\crudtests\DataDrivenTest.class
+com\bestbuy\cucumber\CucumberRunner.class
+ProductCRUDStepdef.class
+com\bestbuy\crudtests\StoreCRUDTest.class
+com\bestbuy\crudtests\ProductCRUDTest.class
+com\bestbuy\cucumber\steps\StoreStepdef.class
+com\bestbuy\cucumber\steps\ProductStepdef.class
+StoreCRUDStepdefs.class

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bestbuy.cucumber.CucumberRunner" time="0.407" tests="40" errors="0" skipped="14" failures="0">
+  <properties>
+    <property name="idea.version" value="2022.2.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\hetar\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files\Apache\apache-maven-3.8.6\bin;C:\Program Files\nodejs\;C:\Users\hetar\AppData\Local\Microsoft\WindowsApps;C:\Users\hetar\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\hetar"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="hetar"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.2 clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="When As a User I create a product" classname="Scenario: Verify that product is created" time="0"/>
+  <testcase name="Then User must get back a valid response 201" classname="Scenario: Verify that product is created" time="0"/>
+  <testcase name="Scenario: Verify that product is created" classname="Scenario: Verify that product is created" time="0.073"/>
+  <testcase name="When I get product with productId" classname="Scenario: Verify that I can get created product with productId" time="0"/>
+  <testcase name="Then I must get back a valid response 200" classname="Scenario: Verify that I can get created product with productId" time="0"/>
+  <testcase name="Scenario: Verify that I can get created product with productId" classname="Scenario: Verify that I can get created product with productId" time="0.025"/>
+  <testcase name="When I update product with productId" classname="Scenario: Verify that the product is updated with productId" time="0"/>
+  <testcase name="Then I must get back a again valid response 200" classname="Scenario: Verify that the product is updated with productId" time="0"/>
+  <testcase name="Scenario: Verify that the product is updated with productId" classname="Scenario: Verify that the product is updated with productId" time="0.024"/>
+  <testcase name="When I delete product with productId" classname="Scenario: Verify that the created product is deleted" time="0"/>
+  <testcase name="Then I check product is deleted" classname="Scenario: Verify that the created product is deleted" time="0"/>
+  <testcase name="Scenario: Verify that the created product is deleted" classname="Scenario: Verify that the created product is deleted" time="0.048"/>
+  <testcase name="When I create product with name &quot;Battery&quot; type &quot;Chargable&quot; price&quot;18&quot; shipping&quot;52&quot; upc&quot;012345&quot; description&quot;Compatible with select electronic device&quot; manufacture&quot;Duracell&quot; model&quot;MN2400B4Z&quot; url&quot;http://www.bestbuy.com&quot; image&quot;http://img.bbystatic.com&quot;" classname="| Battery | Chargable | 18 | 52 | 012345 | Compatible with select electronic device | Duracell | MN2400B4Z | http://www.bestbuy.com | http://img.bbystatic.com |" time="0">
+    <skipped/>
+    <system-err><![CDATA[10129 [main] INFO net.serenitybdd.core.Serenity - Test Suite Started: CRUD test of Product
+10131 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: CRUD Test
+-------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="And I verify user created" classname="| Battery | Chargable | 18 | 52 | 012345 | Compatible with select electronic device | Duracell | MN2400B4Z | http://www.bestbuy.com | http://img.bbystatic.com |" time="0">
+    <skipped/>
+    <system-err><![CDATA[10132 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+]]></system-err>
+  </testcase>
+  <testcase name="And I update product with name &quot;Battery&quot; type &quot;Chargable&quot; price&quot;18&quot; shipping&quot;52&quot; upc&quot;012345&quot; description&quot;Compatible with select electronic device&quot; manufacture&quot;Duracell&quot; model&quot;MN2400B4Z&quot; url&quot;http://www.bestbuy.com&quot; image&quot;http://img.bbystatic.com&quot;" classname="| Battery | Chargable | 18 | 52 | 012345 | Compatible with select electronic device | Duracell | MN2400B4Z | http://www.bestbuy.com | http://img.bbystatic.com |" time="0">
+    <skipped/>
+    <system-err><![CDATA[10132 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+]]></system-err>
+  </testcase>
+  <testcase name="And I check product updated successfully" classname="| Battery | Chargable | 18 | 52 | 012345 | Compatible with select electronic device | Duracell | MN2400B4Z | http://www.bestbuy.com | http://img.bbystatic.com |" time="0">
+    <skipped/>
+    <system-err><![CDATA[10134 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+]]></system-err>
+  </testcase>
+  <testcase name="And I delete product" classname="| Battery | Chargable | 18 | 52 | 012345 | Compatible with select electronic device | Duracell | MN2400B4Z | http://www.bestbuy.com | http://img.bbystatic.com |" time="0">
+    <skipped/>
+    <system-err><![CDATA[10134 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+]]></system-err>
+  </testcase>
+  <testcase name="Then I verify that product deleted successfully" classname="| Battery | Chargable | 18 | 52 | 012345 | Compatible with select electronic device | Duracell | MN2400B4Z | http://www.bestbuy.com | http://img.bbystatic.com |" time="0">
+    <skipped/>
+    <system-err><![CDATA[10134 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+]]></system-err>
+  </testcase>
+  <testcase name="| Battery | Chargable | 18 | 52 | 012345 | Compatible with select electronic device | Duracell | MN2400B4Z | http://www.bestbuy.com | http://img.bbystatic.com |" classname="| Battery | Chargable | 18 | 52 | 012345 | Compatible with select electronic device | Duracell | MN2400B4Z | http://www.bestbuy.com | http://img.bbystatic.com |" time="0">
+    <skipped/>
+    <system-err><![CDATA[10134 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+10134 [main] INFO net.serenitybdd.core.Serenity - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: CRUD Test
+---------------------------------------------------------------------------------
+10137 [pool-15-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Verify that I can get created product with productId to file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\4e408a7ea9ce7303d00623b8cfafd41741c033c567f4d38213578733e6bda323.json (using temp file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\4e408a7ea9ce7303d00623b8cfafd41741c033c567f4d38213578733e6bda323.json2b041bef-b8b7-4664-b0ff-9f4fb9d3b4a4)
+10138 [pool-15-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Verify that product is created to file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\da1664b9665ddddf850ebba7dd9102c3a70d16b6f579a9f81f9c4656ff66469d.json (using temp file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\da1664b9665ddddf850ebba7dd9102c3a70d16b6f579a9f81f9c4656ff66469d.json3b5b815a-d7c0-488f-823b-6bdc6e5d0ccf)
+10140 [pool-15-thread-5] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for CRUD Test to file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\fe5661a10f74881d10c92dd4e9880fbc414040df15327bdfd01eeab5de539246.json (using temp file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\fe5661a10f74881d10c92dd4e9880fbc414040df15327bdfd01eeab5de539246.json118360ad-79d2-4435-ad46-4dbbd36636b7)
+10140 [pool-15-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Verify that the product is updated with productId to file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\59a17eb3bba1609720439024c299a96668e824957e2632c2bc2d20433ab8ffa1.json (using temp file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\59a17eb3bba1609720439024c299a96668e824957e2632c2bc2d20433ab8ffa1.json61134bfa-a994-4c7b-9bac-0add7e3190d3)
+10143 [pool-15-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Verify that the created product is deleted to file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\0003d9646502164e9a11c736d6ef0cc86ab25ea1010044705d1581b822dbf845.json (using temp file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\0003d9646502164e9a11c736d6ef0cc86ab25ea1010044705d1581b822dbf845.json0552be3c-a2c4-4875-9fcc-6148d72ed7bc)
+10155 [pool-16-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on product:Verify that product is created in da1664b9665ddddf850ebba7dd9102c3a70d16b6f579a9f81f9c4656ff66469d.html in directory target\site\serenity  
+10155 [pool-16-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on product:Verify that I can get created product with productId in 4e408a7ea9ce7303d00623b8cfafd41741c033c567f4d38213578733e6bda323.html in directory target\site\serenity  
+10161 [pool-16-thread-5] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR CRUD test of Product:CRUD Test in fe5661a10f74881d10c92dd4e9880fbc414040df15327bdfd01eeab5de539246.html in directory target\site\serenity  
+10163 [pool-16-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on product:Verify that the product is updated with productId in 59a17eb3bba1609720439024c299a96668e824957e2632c2bc2d20433ab8ffa1.html in directory target\site\serenity  
+10165 [pool-16-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on product:Verify that the created product is deleted in 0003d9646502164e9a11c736d6ef0cc86ab25ea1010044705d1581b822dbf845.html in directory target\site\serenity  
+]]></system-err>
+  </testcase>
+  <testcase name="| Battery | Chargable | 18 | 52 | 012345 | Compatible with select electronic device | Duracell | MN2400B4Z | http://www.bestbuy.com | http://img.bbystatic.com |" classname="| Battery | Chargable | 18 | 52 | 012345 | Compatible with select electronic device | Duracell | MN2400B4Z | http://www.bestbuy.com | http://img.bbystatic.com |" time="0.041"/>
+  <testcase name="When I create a store" classname="Scenario: Verify that store is created" time="0"/>
+  <testcase name="Then I must get a valid response 201" classname="Scenario: Verify that store is created" time="0"/>
+  <testcase name="Scenario: Verify that store is created" classname="Scenario: Verify that store is created" time="0.061"/>
+  <testcase name="When I get store with storeId" classname="Scenario: Verify that I get created store with storeId" time="0"/>
+  <testcase name="Then I must get valid response 200" classname="Scenario: Verify that I get created store with storeId" time="0"/>
+  <testcase name="Scenario: Verify that I get created store with storeId" classname="Scenario: Verify that I get created store with storeId" time="0.046"/>
+  <testcase name="When I update store with storeId" classname="Scenario: Verify that I update the store with storeId" time="0"/>
+  <testcase name="Then I must get valid response 200" classname="Scenario: Verify that I update the store with storeId" time="0"/>
+  <testcase name="Scenario: Verify that I update the store with storeId" classname="Scenario: Verify that I update the store with storeId" time="0.069"/>
+  <testcase name="When I delete store with storeId" classname="Scenario: Verify that I can delete the store" time="0"/>
+  <testcase name="Then I check store is deleted" classname="Scenario: Verify that I can delete the store" time="0"/>
+  <testcase name="Scenario: Verify that I can delete the store" classname="Scenario: Verify that I can delete the store" time="0.061"/>
+  <testcase name="When I create store with name &quot;MN&quot; type&quot;SmallBox&quot; address&quot;12 Str&quot; address2&quot;road&quot; city&quot;Mumbai&quot; state&quot;Maharashtra&quot; zip&quot;0097&quot; lat&quot;189&quot; lng&quot;85&quot; hours&quot;3&quot;" classname="| MN | SmallBox | 12 Str | road | Mumbai | Maharashtra | 0097 | 189 | 85 | 3 |" time="0">
+    <skipped/>
+    <system-err><![CDATA[10630 [main] INFO net.serenitybdd.core.Serenity - Test Suite Started: Store Application
+10630 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: CRUD Test
+-------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="And I verify store created" classname="| MN | SmallBox | 12 Str | road | Mumbai | Maharashtra | 0097 | 189 | 85 | 3 |" time="0">
+    <skipped/>
+    <system-err><![CDATA[10631 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+]]></system-err>
+  </testcase>
+  <testcase name="And I update store with name &quot;MN&quot; type&quot;SmallBox&quot; address&quot;12 Str&quot; address2&quot;road&quot; city&quot;Mumbai&quot; state&quot;Maharashtra&quot; zip&quot;0097&quot; lat&quot;189&quot; lng&quot;85&quot; hours&quot;3&quot;" classname="| MN | SmallBox | 12 Str | road | Mumbai | Maharashtra | 0097 | 189 | 85 | 3 |" time="0">
+    <skipped/>
+    <system-err><![CDATA[10631 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+]]></system-err>
+  </testcase>
+  <testcase name="And I check store is updated successfully" classname="| MN | SmallBox | 12 Str | road | Mumbai | Maharashtra | 0097 | 189 | 85 | 3 |" time="0">
+    <skipped/>
+    <system-err><![CDATA[10631 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+]]></system-err>
+  </testcase>
+  <testcase name="And I delete store" classname="| MN | SmallBox | 12 Str | road | Mumbai | Maharashtra | 0097 | 189 | 85 | 3 |" time="0">
+    <skipped/>
+    <system-err><![CDATA[10632 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+]]></system-err>
+  </testcase>
+  <testcase name="Then I verify that store is deleted successfully" classname="| MN | SmallBox | 12 Str | road | Mumbai | Maharashtra | 0097 | 189 | 85 | 3 |" time="0">
+    <skipped/>
+    <system-err><![CDATA[10632 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+]]></system-err>
+  </testcase>
+  <testcase name="| MN | SmallBox | 12 Str | road | Mumbai | Maharashtra | 0097 | 189 | 85 | 3 |" classname="| MN | SmallBox | 12 Str | road | Mumbai | Maharashtra | 0097 | 189 | 85 | 3 |" time="0">
+    <skipped/>
+    <system-err><![CDATA[10632 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+10633 [main] INFO net.serenitybdd.core.Serenity - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: CRUD Test
+---------------------------------------------------------------------------------
+10638 [pool-25-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Verify that product is created to file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\da1664b9665ddddf850ebba7dd9102c3a70d16b6f579a9f81f9c4656ff66469d.json (using temp file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\da1664b9665ddddf850ebba7dd9102c3a70d16b6f579a9f81f9c4656ff66469d.json7cee10b2-91fb-4085-bcea-ddf3aa4a8601)
+10639 [pool-25-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Verify that I can get created product with productId to file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\4e408a7ea9ce7303d00623b8cfafd41741c033c567f4d38213578733e6bda323.json (using temp file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\4e408a7ea9ce7303d00623b8cfafd41741c033c567f4d38213578733e6bda323.json2b3aced9-6a5b-474b-8074-5197b3e6defd)
+10642 [pool-25-thread-6] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Verify that store is created to file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\b65c2f45ab811556e4a6a3ddfa2d47b801afb5fb76eaf22593285abca07a7e1d.json (using temp file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\b65c2f45ab811556e4a6a3ddfa2d47b801afb5fb76eaf22593285abca07a7e1d.jsone8abc81d-8bc9-49cc-9291-9595e0b017c4)
+10642 [pool-25-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Verify that the product is updated with productId to file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\59a17eb3bba1609720439024c299a96668e824957e2632c2bc2d20433ab8ffa1.json (using temp file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\59a17eb3bba1609720439024c299a96668e824957e2632c2bc2d20433ab8ffa1.json4cc172ec-5585-46ce-a350-3e03fa050150)
+10647 [pool-25-thread-7] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Verify that I get created store with storeId to file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\c40d313d955dbc25cabb55d55797452d7f564d5fee81abdea924167c4f0f3d2b.json (using temp file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\c40d313d955dbc25cabb55d55797452d7f564d5fee81abdea924167c4f0f3d2b.json042bde4c-7f9d-4fbb-8806-cd3a42e45eaf)
+10647 [pool-25-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Verify that the created product is deleted to file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\0003d9646502164e9a11c736d6ef0cc86ab25ea1010044705d1581b822dbf845.json (using temp file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\0003d9646502164e9a11c736d6ef0cc86ab25ea1010044705d1581b822dbf845.json486aec4d-f6ce-4c8b-944e-63ad71c2f84c)
+10647 [pool-25-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Verify that I can delete the store to file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\16e05000e4221737b96b6e1b270f359cd08a45adee2f0a18dc28bcbc3239d2c5.json (using temp file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\16e05000e4221737b96b6e1b270f359cd08a45adee2f0a18dc28bcbc3239d2c5.json25de4bd8-8bb5-4641-b693-bfa5312fde64)
+10649 [pool-25-thread-5] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for CRUD Test to file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\fe5661a10f74881d10c92dd4e9880fbc414040df15327bdfd01eeab5de539246.json (using temp file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\fe5661a10f74881d10c92dd4e9880fbc414040df15327bdfd01eeab5de539246.json8e74bf9c-4aa9-4da6-995e-183d0d7a049d)
+10650 [pool-25-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for CRUD Test to file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\b209ba29f2dc9aa6dbe903f1d44b8457df611591085b6346ab4aef218557a0b5.json (using temp file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\b209ba29f2dc9aa6dbe903f1d44b8457df611591085b6346ab4aef218557a0b5.jsonf78fb364-552a-45c4-8425-2b4891e1cb38)
+10651 [pool-25-thread-8] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Verify that I update the store with storeId to file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\1c16be30c14b62e981ac8ee8f2ccfb1741cc4f3e80a2099352fdafab11d50f3e.json (using temp file C:\Users\hetar\IdeaProjects\bestbuy-cucumber-week19\target\site\serenity\1c16be30c14b62e981ac8ee8f2ccfb1741cc4f3e80a2099352fdafab11d50f3e.jsonf3a6fef0-ab8b-40d6-9c96-2dfeca22409d)
+10683 [pool-26-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on product:Verify that I can get created product with productId in 4e408a7ea9ce7303d00623b8cfafd41741c033c567f4d38213578733e6bda323.html in directory target\site\serenity  
+10684 [pool-26-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on product:Verify that the product is updated with productId in 59a17eb3bba1609720439024c299a96668e824957e2632c2bc2d20433ab8ffa1.html in directory target\site\serenity  
+10686 [pool-26-thread-6] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on store:Verify that store is created in b65c2f45ab811556e4a6a3ddfa2d47b801afb5fb76eaf22593285abca07a7e1d.html in directory target\site\serenity  
+10690 [pool-26-thread-7] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on store:Verify that I get created store with storeId in c40d313d955dbc25cabb55d55797452d7f564d5fee81abdea924167c4f0f3d2b.html in directory target\site\serenity  
+10695 [pool-26-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on product:Verify that product is created in da1664b9665ddddf850ebba7dd9102c3a70d16b6f579a9f81f9c4656ff66469d.html in directory target\site\serenity  
+10698 [pool-26-thread-6] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on store:Verify that I can delete the store in 16e05000e4221737b96b6e1b270f359cd08a45adee2f0a18dc28bcbc3239d2c5.html in directory target\site\serenity  
+10701 [pool-26-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Store Application:CRUD Test in b209ba29f2dc9aa6dbe903f1d44b8457df611591085b6346ab4aef218557a0b5.html in directory target\site\serenity  
+10715 [pool-26-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on product:Verify that the created product is deleted in 0003d9646502164e9a11c736d6ef0cc86ab25ea1010044705d1581b822dbf845.html in directory target\site\serenity  
+10723 [pool-26-thread-8] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on store:Verify that I update the store with storeId in 1c16be30c14b62e981ac8ee8f2ccfb1741cc4f3e80a2099352fdafab11d50f3e.html in directory target\site\serenity  
+10723 [pool-26-thread-5] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR CRUD test of Product:CRUD Test in fe5661a10f74881d10c92dd4e9880fbc414040df15327bdfd01eeab5de539246.html in directory target\site\serenity  
+]]></system-err>
+  </testcase>
+  <testcase name="| MN | SmallBox | 12 Str | road | Mumbai | Maharashtra | 0097 | 189 | 85 | 3 |" classname="| MN | SmallBox | 12 Str | road | Mumbai | Maharashtra | 0097 | 189 | 85 | 3 |" time="0.1"/>
+</testsuite>
